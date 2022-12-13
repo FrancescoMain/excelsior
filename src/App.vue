@@ -10,10 +10,16 @@ export default {
 </script>
 
 <template>
-  <LogApp />
+  <div class="container">
+    <LogApp />
+  </div>
+
 
 </template>
 
 <style lang="scss">
+.container {
+  height: 100vh;
 
+}
 </style>
